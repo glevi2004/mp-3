@@ -11,6 +11,7 @@ const StyledNav = styled.nav`
   @media (max-width: 750px) {
     flex-direction: row;
     width: 100vw;
+    flex-wrap: wrap;
   }
 `;
 
@@ -26,7 +27,7 @@ const StyledUl = styled.ul`
   @media (max-width: 750px) {
     flex-direction: row;
     height: 5vh;
-    margin: 2vh;
+    margin: 1.4vh;
   }
 `;
 
@@ -39,7 +40,7 @@ const StyledLink = styled(Link)`
   background-color: #f5f5f5;
   border-radius: 10px;
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1); /* adds the subtle depth */
-  padding: 2vh 2vw;
+  padding: 1vh 1vw;
   font-size: calc(2px + 1.5vw);
 
   text-decoration: none; /* removes underline */
@@ -55,7 +56,7 @@ const StyledLink = styled(Link)`
   }
 
   @media (max-width: 750px) {
-    padding: 2vh;
+    padding: 1vh;
     font-size: calc(2px + 2vw);
     margin: 0.5vw;
   }
